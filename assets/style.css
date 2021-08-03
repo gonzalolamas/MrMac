@@ -1,0 +1,98 @@
+/*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+/*Agregamos margenes inferiores a los parrafos*/
+p {
+  margin-bottom: 20px;
+}
+.logo-image {
+  position: absolute;
+  left: 45%;
+  z-index: 2000;
+  height: auto;
+  width: 50px;
+}
+.footer-container {
+  border-top: 0px solid #000;
+  background-color: #e1e1e1;
+}
+.footer-top-content {
+  padding: 45px;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.menu-footer-container {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.menu-footer-item {
+  float: left;
+  font-family: "Akzidenz Grotesk BoldCn";
+  border-right: 2px solid #414141;
+  color: #414141;
+  font-size: 18px;
+  line-height: 23px;
+  padding: 0 10px;
+}
+.social-footer-container {
+  float: right;
+}
+
+.social-footer-item:first-child {
+  margin-right: 0px;
+  padding-right: 0px;
+}
+.social-footer-item {
+  float: right;
+  padding: 0 16px;
+}
+.footer-legals {
+  background-color: #414141;
+  font-family: "Akzidenz Grotesk LightCn";
+  font-size: 18px;
+  text-align: center;
+  color: #666666;
+  padding: 0;
+}
+.footer-legals-inner-container {
+  padding: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.footer-legals-item-container {
+  float: right;
+  padding-right: 5px;
+  max-width: 50%;
+  text-align: right;
+}
+.footer-legals-rights {
+  float: left;
+  padding-right: 5px;
+  max-width: 50%;
+  text-align: left;
+}
+
+.info {
+  color: red;
+}
+
+.new-paragraph {
+  color: blue;
+}

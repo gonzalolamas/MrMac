@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,  shrink-to-fit=no"
+    />
+    <title>MrMac</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍔</text></svg>"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <!-- Redireccion a pagina de inicio con el logo -->
+      <a href="index.html"><img class="logo-image" src="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍔</text></svg>"" alt="Logo-mrmac"></a>
+      <!-- Inicio de navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Nuestro menú</a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="locales.html"
+                >Locales <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Implementando el carrousel -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide m-3"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://d25dk4h1q4vl9b.cloudfront.net/media/images/promotion-pill/5e9723b66a57a9.36601570_delivery_Banner_Home_1423x623_2_____.jpg"
+            class="d-block w-100"
+            alt="consulta-locales"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://d25dk4h1q4vl9b.cloudfront.net/media/images/promotion-pill/5efb5df4a6e843.78483948_Banner_Home_1%20(1).jpg"
+            class="d-block w-100"
+            alt="Promocion-extramcnificas"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://d25dk4h1q4vl9b.cloudfront.net/media/images/promotion-pill/5fe3c0906ceea7.03415289_Banner%20Home%20Soul.jpg"
+            class="d-block w-100"
+            alt="Cajita-feliz"
+          />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- Subtitulo division -->
+    <h1 class="category-title text-center"><span>HOY EN McDONALD'S</span></h1>
+    <main>
+      <!-- Presentaciones-cards-->
+      <div class="card-deck m-1">
+        <div class="card">
+          <img
+            src="https://d25dk4h1q4vl9b.cloudfront.net/media/images/promotion-pill/5ff6271e6d3c17.47810607_BannerWeb_1423x623 (1).jpg"
+            class="card-img-top"
+            alt="Hamburguesa-cuarto-de-libra"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Cuarto de Libra con o sin Pepinillos</h5>
+            <p class="card-text">Todos Somos #CuartoDeLibraLovers</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://d25dk4h1q4vl9b.cloudfront.net/media/images/promotion-pill/5f05c5987b26e2.12587161_banner_web.jpg"
+            class="card-img-top"
+            alt="Helado promo"
+          />
+          <div class="card-body">
+            <h5 class="card-title">DESCUBRÍ Croccantella</h5>
+            <p class="card-text">Tu nuevo placer crocante</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://d25dk4h1q4vl9b.cloudfront.net/media/images/promotion-pill/60063f42ca6bb3.82843466_Triple%20Cuarto-Banner%20Web.jpg"
+            class="card-img-top"
+            alt="Triple cuarto de libra"
+          />
+          <div class="card-body">
+            <h5 class="card-title">NUEVO TRIPLE CUARTO DE LIBRA</h5>
+            <p class="card-text">Todos Somos #CuartoDeLibraLovers</p>
+          </div>
+        </div>
+      </div>
+      <!-- Division 3 cartas de abajo -->
+      <div class="card-deck m-1">
+        <div class="card">
+          <img
+            src="https://d25dk4h1q4vl9b.cloudfront.net/media/images/promotion-pill/5eb5fc3fa05f08.17372877_McProtegidos-Banner-Web-McDelivery.jpg"
+            class="card-img-top"
+            alt="Mc-delivery"
+          />
+          <div class="card-body">
+            <h5 class="card-title">McProtegidos!</h5>
+            <p class="card-text">Disfrutá McDelivery seguro y sin contacto</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://d25dk4h1q4vl9b.cloudfront.net/media/images/promotion-pill/5ebb06344e8871.87086619_McDelivery_Directo_Banner_Home-min.jpg"
+            class="card-img-top"
+            alt="Te lo llevamos hasta tu casa!"
+          />
+          <div class="card-body">
+            <h5 class="card-title">McDelivery Directo</h5>
+            <p class="card-text">Pedí por Whatsapp SIN CARGO!</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://d25dk4h1q4vl9b.cloudfront.net/media/images/promotion-pill/5e74f74787c519.72101723_1423x623_2.jpg"
+            class="card-img-top"
+            alt="Prevencion Coronavirus"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Prevención Coronavirus</h5>
+            <p class="card-text">Cuidémonos entre todos.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Botones con informacion -->
+      <div class="d-flex m-3">
+      <button
+        type="button"
+        class="btn btn-warning ml-5"
+        data-container="body"
+        data-toggle="popover"
+        data-trigger="hover"
+        data-content="Con la Nueva Cajita Feliz."
+        data-original-title=""
+        title="Promo infantil"
+      >
+        Viví tu sueños
+      </button>
+
+      <button
+        type="button"
+        class="btn btn-warning ml-1"
+        data-container="body"
+        data-toggle="popover"
+        data-trigger="hover"
+        data-content="¡Hacelo con tu APP!"
+        data-original-title=""
+        title="Pagar en el celular"
+      >
+        Pedí, pagá y retirá
+      </button>
+
+      <div class=" m-2">
+        <a
+          tabindex="0"
+          class="btn btn btn-warning"
+          role="button"
+          data-toggle="popover"
+          data-trigger="hover"
+          title="Ayudemosnos entre todos"
+          data-content="Entregamos tu pedido sin contacto"
+          >McProtegidos - AutoMac</a
+        >
+
+        <!-- Boton Modal -->
+        <!-- Button trigger modal -->
+        <button
+          type="button"
+          class="btn btn-warning"
+          data-toggle="modal"
+          data-target="#staticBackdrop"
+        >
+          McDONALD'S ARGENTINA
+        </button>
+      </div>
+    </div>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="staticBackdrop"
+        data-backdrop="static"
+        data-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">
+                Local comida rapida
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Somos una de las principales compañías de servicio rápido de la
+              alimentación en el país.
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-warning"
+                data-dismiss="modal"
+              >
+                Cerrar
+              </button>
+              <a
+                href="nosotros.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button type="button" class="btn btn-warning">
+                  Leer más
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Lista desordenada -->
+      <div>
+        <ul class="list-group text-center">
+          <li class="list-group-item active" aria-current="true">
+            Promociones desde la APP!
+          </li>
+        </ul>
+      </div>
+      <!-- Seccion videos -->
+      <h1 class="text-center">DESCUBRÍ EL ORÍGEN DE NUESTROS PRODUCTOS</h1>
+      <iframe class="float-right" width="560" height="315" src="https://www.youtube.com/embed/b56Tsy0ucFk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/MKDmdXcdxsw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </main>
+
+    <!-- Comienzo footer -->
+    <footer>
+      <div class="footer-container" ng-controller="FooterCtrl">
+        <div class="footer-top-content m-3">
+          <div class="menu-footer-container">
+            <div class="menu-footer-item">
+              <a id="open-contact-form" href="contacto.html">CONTACTO</a>
+            </div>
+
+            <div class="menu-footer-item">
+              <a id="footer-join" href="nosotros.html">NOSOTROS</a>
+            </div>
+
+            <div class="menu-footer-item last">
+              <a id="footer-locations" href="locales.html">LOCALES</a>
+            </div>
+          </div>
+          <div class="social-footer-container m-3">
+            <div class="social-footer-item">
+              <a href="https://twitter.com/mcdonalds_ar" target="_blank">
+                <img
+                  class="twitter-image social-image"
+                  src="https://d25dk4h1q4vl9b.cloudfront.net/bundles/front/media/images/footer/twitter.png"
+                  alt="Twitter"
+                />
+              </a>
+            </div>
+
+            <div class="social-footer-item">
+              <a
+                href="https://www.youtube.com/user/McDonaldsSur"
+                target="_blank"
+              >
+                <img
+                  class="youtube-image social-image"
+                  src="https://d25dk4h1q4vl9b.cloudfront.net/bundles/front/media/images/footer/youtube.png"
+                  alt="YouTube"
+                />
+              </a>
+            </div>
+
+            <div class="social-footer-item">
+              <a href="https://instagram.com/mcdonalds_ar" target="_blank">
+                <img
+                  class="instagram-image social-image"
+                  src="https://d25dk4h1q4vl9b.cloudfront.net/bundles/front/media/images/footer/instagram.png"
+                  alt="Instagram"
+                />
+              </a>
+            </div>
+
+            <div class="social-footer-item">
+              <a
+                href="https://www.facebook.com/McDonaldsArgentina"
+                target="_blank"
+              >
+                <img
+                  class="facebook-image social-image"
+                  src="https://d25dk4h1q4vl9b.cloudfront.net/bundles/front/media/images/footer/facebook.png"
+                  alt="Facebook"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-legals" style="color: #fff">
+          <div class="footer-legals-inner-container clearfix">
+            <div class="footer-legals-item-container">
+              <div class="footer-legals-item first">
+                <a style="color: #fff" href="/politica-de-privacidad"
+                  >Política de Privacidad</a
+                >
+              </div>
+              <div class="footer-legals-item">
+                <a style="color: #fff" href="/aviso-de-fraude"
+                  >Aviso de fraude</a
+                >
+              </div>
+              <div class="footer-legals-item">
+                <a
+                  style="color: #fff"
+                  href="http://www.buenosaires.gob.ar/defensaconsumidor"
+                  target="_blank"
+                  >Defensa del Consumidor</a
+                >
+              </div>
+              <div class="footer-legals-item">
+                <a style="color: #fff" href="/proteccion-datos-personales"
+                  >Protección de datos personales</a
+                >
+              </div>
+            </div>
+            <div class="footer-legals-rights">
+              <span
+                >MrMac Argentina S.A. - Todos los derechos reservados -
+                <span id="current-year">2021</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
