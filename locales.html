@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Locales</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍔</text></svg>"
+    />
+  </head>
+  <body class="bg-warning">
+    <header>
+      <!-- Redireccion a pagina de inicio con el logo -->
+      <a href="index.html"><img class="logo-image" src="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍔</text></svg>"" alt="Logo-mrmac"></a>
+      <!-- Inicio de navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Nuestro menú</a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="locales.html"
+                >Locales <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Buscar en el mapa -->
+    <h1 class="text-center">ENCONTRÁ EL LOCAL QUE BUSCÁS</h1>
+    <iframe
+      class="container-fluid"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d88194.92539036098!2d-58.284386702166735!3d-34.76658632084666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x911861fdae1123ae!2sMcDonald&#39;s!5e0!3m2!1ses!2sar!4v1610728551477!5m2!1ses!2sar"
+      width="600"
+      height="450"
+      frameborder="0"
+      style="border: 0"
+      allowfullscreen=""
+      aria-hidden="false"
+      tabindex="0"
+    ></iframe>
+    <!-- Acordion -->
+    <div id="accordion" role="tablist">
+      <div class="card mt-5">
+        <div class="card-header" role="tab" id="headingOne">
+          <h5 class="mb-0">
+            <a
+              data-toggle="collapse"
+              href="#collapseOne"
+              aria-expanded="false"
+              aria-controls="collapseOne"
+              class="collapsed"
+            >
+              SERVICIO DE ENTREGA A LA MESA
+            </a>
+          </h5>
+        </div>
+
+        <div
+          id="collapseOne"
+          class="collapse"
+          role="tabpanel"
+          aria-labelledby="headingOne"
+          style=""
+        >
+          <div class="card-body">
+            Elegí tu menú favorito en las cajas o en los kioscos digitales,
+            sentate y ¡disfrutá! Te lo entregamos en la mesa.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" role="tab" id="headingTwo">
+          <h5 class="mb-0">
+            <a
+              class="collapsed"
+              data-toggle="collapse"
+              href="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              HECHO PARA VOS
+            </a>
+          </h5>
+        </div>
+        <div
+          id="collapseTwo"
+          class="collapse"
+          role="tabpanel"
+          aria-labelledby="headingTwo"
+          style=""
+        >
+          <div class="card-body">
+            Preparamos tu comida en el momento en el que la pedís, con los
+            ingredientes más frescos.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Comienzo footer -->
+    <footer>
+      <div class="footer-container" ng-controller="FooterCtrl">
+        <div class="footer-top-content m-3">
+          <div class="menu-footer-container">
+            <div class="menu-footer-item">
+              <a id="open-contact-form" href="contacto.html">CONTACTO</a>
+            </div>
+
+            <div class="menu-footer-item">
+              <a id="footer-join" href="nosotros.html">NOSOTROS</a>
+            </div>
+
+            <div class="menu-footer-item last">
+              <a id="footer-locations" href="locales.html">LOCALES</a>
+            </div>
+          </div>
+          <div class="social-footer-container m-3">
+            <div class="social-footer-item">
+              <a href="https://twitter.com/mcdonalds_ar" target="_blank">
+                <img
+                  class="twitter-image social-image"
+                  src="https://d25dk4h1q4vl9b.cloudfront.net/bundles/front/media/images/footer/twitter.png"
+                  alt="Twitter"
+                />
+              </a>
+            </div>
+
+            <div class="social-footer-item">
+              <a
+                href="https://www.youtube.com/user/McDonaldsSur"
+                target="_blank"
+              >
+                <img
+                  class="youtube-image social-image"
+                  src="https://d25dk4h1q4vl9b.cloudfront.net/bundles/front/media/images/footer/youtube.png"
+                  alt="YouTube"
+                />
+              </a>
+            </div>
+
+            <div class="social-footer-item">
+              <a href="https://instagram.com/mcdonalds_ar" target="_blank">
+                <img
+                  class="instagram-image social-image"
+                  src="https://d25dk4h1q4vl9b.cloudfront.net/bundles/front/media/images/footer/instagram.png"
+                  alt="Instagram"
+                />
+              </a>
+            </div>
+
+            <div class="social-footer-item">
+              <a
+                href="https://www.facebook.com/McDonaldsArgentina"
+                target="_blank"
+              >
+                <img
+                  class="facebook-image social-image"
+                  src="https://d25dk4h1q4vl9b.cloudfront.net/bundles/front/media/images/footer/facebook.png"
+                  alt="Facebook"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-legals" style="color: #fff">
+          <div class="footer-legals-inner-container clearfix">
+            <div class="footer-legals-item-container">
+              <div class="footer-legals-item first">
+                <a style="color: #fff" href="/politica-de-privacidad"
+                  >Política de Privacidad</a
+                >
+              </div>
+              <div class="footer-legals-item">
+                <a style="color: #fff" href="/aviso-de-fraude"
+                  >Aviso de fraude</a
+                >
+              </div>
+              <div class="footer-legals-item">
+                <a
+                  style="color: #fff"
+                  href="http://www.buenosaires.gob.ar/defensaconsumidor"
+                  target="_blank"
+                  >Defensa del Consumidor</a
+                >
+              </div>
+              <div class="footer-legals-item">
+                <a style="color: #fff" href="/proteccion-datos-personales"
+                  >Protección de datos personales</a
+                >
+              </div>
+            </div>
+            <div class="footer-legals-rights">
+              <span
+                >MrMac Argentina S.A. - Todos los derechos reservados -
+                <span id="current-year">2021</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/custom/api-food.js"></script>
+  </body>
+</html>
